@@ -15,6 +15,7 @@
         
         _textColor = [UIColor whiteColor];
         _selectedTextColor = [UIColor whiteColor];
+        _tagLabelAlignment = NSTextAlignmentCenter;
         
         _backgroundColor = [UIColor colorWithRed:0.30 green:0.72 blue:0.53 alpha:1.00];
         _selectedBackgroundColor = [UIColor colorWithRed:0.22 green:0.29 blue:0.36 alpha:1.00];
@@ -180,6 +181,7 @@
     // Text style
     _label.font = _config.textFont;
     _label.textColor = _selected ? _config.selectedTextColor : _config.textColor;
+    _label.textAlignment = _config.tagLabelAlignment;
     
     // Normal background
     _label.backgroundColor = _selected ? _config.selectedBackgroundColor : _config.backgroundColor;

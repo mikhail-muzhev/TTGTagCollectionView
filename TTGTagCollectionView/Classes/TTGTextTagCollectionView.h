@@ -11,6 +11,7 @@
 @interface TTGTextTagConfig : NSObject;
 // Text font
 @property (strong, nonatomic) UIFont *textFont;
+@property (nonatomic, assign) NSTextAlignment tagLabelAlignment;
 
 // Text color
 @property (strong, nonatomic) UIColor *textColor;
