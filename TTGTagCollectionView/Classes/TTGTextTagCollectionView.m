@@ -100,6 +100,7 @@
     
     newConfig.exactWidth = _exactWidth;
     newConfig.exactHeight = _exactHeight;
+    newConfig.tagLabelAlignment = _tagLabelAlignment;
     
     if ([_extraData conformsToProtocol:@protocol(NSCopying)] &&
         [_extraData respondsToSelector:@selector(copyWithZone:)]) {
